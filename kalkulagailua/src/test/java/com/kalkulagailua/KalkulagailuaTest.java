@@ -8,7 +8,7 @@ public class KalkulagailuaTest {
     void oinarrizkoBatuketaTest(){
         Kalkulagailua kalk=new Kalkulagailua();
         int emaitza=kalk.batu(2,3);
-        assertEquals(6, emaitza, "2+3 batuketak 5 izan behar luke");
+        assertEquals(5, emaitza, "2+3 batuketak 5 izan behar luke");
     }
     @Test 
     void oinarrizkoKenketaTest(){
