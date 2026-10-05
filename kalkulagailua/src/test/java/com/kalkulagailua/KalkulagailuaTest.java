@@ -1,13 +1,14 @@
 package com.kalkulagailua;
 
+import static org.junit.jupiter.api.Assertions.*;
+
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 public class KalkulagailuaTest {
     @Test 
     void oinarrizkoBatuketaTest(){
         Kalkulagailua kalk=new Kalkulagailua();
         int emaitza=kalk.batu(2,3);
-        assertEquals(5, emaitza, "2+3 batuketak 5 izan behar luke");
+        assertEquals(6, emaitza, "2+3 batuketak 5 izan behar luke");
     }
     @Test 
     void oinarrizkoKenketaTest(){

@@ -15,4 +15,6 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '25'
+      - name: Compilar y ejecutar tests de la Calculadora
+        run: mvn clean test
   
