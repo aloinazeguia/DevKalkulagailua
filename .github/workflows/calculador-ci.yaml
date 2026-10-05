@@ -1,22 +1,18 @@
-name:
-Calculadora
-CI
-with
-Maven
-on:
-push:
-branches:
-[
-"main"
-]
-pull_request:
-branches:
-[
-"main"
-]
+name: Calculadora CI with Maven
+on :
+  push:
+    branches :["main"]
+  pull_request:
+    branches :["main"]
 jobs:
-build:
-runs-on:
-ubuntu-latest
-pr_ctica_github_actions_calculadora.md 2026-10-04
-1
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el código del repositorio
+      - uses: actions/checkout@v4
+      - name: Set up JDK 25
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '25'
+  
