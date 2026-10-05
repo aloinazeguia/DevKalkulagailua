@@ -1,0 +1,22 @@
+name:
+Calculadora
+CI
+with
+Maven
+on:
+push:
+branches:
+[
+"main"
+]
+pull_request:
+branches:
+[
+"main"
+]
+jobs:
+build:
+runs-on:
+ubuntu-latest
+pr_ctica_github_actions_calculadora.md 2026-10-04
+1
