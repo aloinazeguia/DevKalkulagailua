@@ -7,6 +7,9 @@ on :
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./kalkulagailua
     steps:
       - name: Descargar el código del repositorio
         uses: actions/checkout@v4
