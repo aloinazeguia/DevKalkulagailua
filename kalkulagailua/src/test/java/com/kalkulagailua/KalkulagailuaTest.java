@@ -21,7 +21,7 @@ public class KalkulagailuaTest {
         Kalkulagailua kalk = new Kalkulagailua();
         int emaitza= kalk.biderketa(3,2);
         assertEquals(6, emaitza,"3*2 biderketak 6 izan behar luke");
-          System.out.println("Test guztiak ondo pasatu dira");
+          System.out.println("Test guztiak ondo pasatu dia");
     }
   
 
